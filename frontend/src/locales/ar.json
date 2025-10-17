@@ -7,8 +7,7 @@
     "home": "الرئيسية",
     "cart": "السلة",
     "rewards": "المكافآت",
-    "profile": "الملف الشخصي",
-    "orders": "الطلبات"
+    "profile": "الملف الشخصي"
   },
   "auth": {
     "login": "تسجيل الدخول",
@@ -50,14 +49,32 @@
   "cart": {
     "title": "سلة التسوق",
     "empty": "سلتك فارغة",
-    "continueShopping": "متابعة التسوق",
+    "continueShopping": "ابدأ بإضافة المنتجات إلى سلتك",
+    "startShopping": "ابدأ التسوق",
     "subtotal": "المجموع الفرعي",
     "discount": "الخصم",
+    "vat": "ضريبة القيمة المضافة",
+    "deliveryFee": "رسوم التوصيل",
+    "free": "مجاناً",
     "total": "الإجمالي",
-    "checkout": "إتمام الطلب",
-    "applyOffer": "تطبيق عرض البنك",
+    "orderSummary": "ملخص الطلب",
+    "freeDeliveryNote": "أضف {{amount}} للحصول على توصيل مجاني!",
+    "earnPoints": "اكسب نقاط المكافآت",
+    "points": "نقطة",
+    "currentBalance": "الرصيد الحالي",
+    "proceedToCheckout": "المتابعة للدفع",
+    "applyOffer": "تطبيق العروض والخصومات",
+    "scheduleDelivery": "جدولة التوصيل",
+    "morning": "توصيل صباحي",
+    "afternoon": "توصيل ظهراً",
+    "evening": "توصيل مسائي",
+    "deliveryAddress": "عنوان التوصيل",
+    "selectAddress": "اختر عنوان التوصيل",
+    "tapToChange": "اضغط للتغيير",
+    "youMayLike": "قد يعجبك أيضاً",
     "removeItem": "إزالة",
-    "itemsInCart": "منتجات في السلة"
+    "itemsInCart": "منتجات في السلة",
+    "checkout": "إتمام الطلب"
   },
   "checkout": {
     "title": "إتمام الطلب",
@@ -96,7 +113,26 @@
     "howToEarn": "كيفية كسب النقاط",
     "earnDescription": "اكسب نقطة واحدة عن كل ريال عماني يتم إنفاقه. استبدل النقاط للحصول على خصومات وعروض حصرية!",
     "redeemed": "تم الاستبدال",
-    "redeem": "استبدل"
+    "redeem": "استبدل",
+    "details": "تفاصيل العرض",
+    "termsConditions": "الشروط والأحكام",
+    "validUntil": "صالح حتى",
+    "yourPoints": "نقاطك",
+    "eligible": "مؤهل",
+    "alreadyRedeemed": "تم الاستبدال بالفعل",
+    "insufficientPoints": "نقاط غير كافية",
+    "redeemNow": "استبدل الآن",
+    "enterPIN": "أدخل رقم PIN الخاص بك",
+    "pinDescription": "أدخل رقم PIN المكون من 4 أرقام لتأكيد الاستبدال",
+    "enterCompletePIN": "الرجاء إدخال رقم PIN كامل مكون من 4 أرقام",
+    "incorrectPIN": "رقم PIN غير صحيح. الرجاء المحاولة مرة أخرى.",
+    "pinHint": "للتجربة: استخدم PIN 1234",
+    "verifying": "جارٍ التحقق...",
+    "confirm": "تأكيد",
+    "redemptionSuccess": "تم الاستبدال بنجاح!",
+    "couponSentToEmail": "تم إرسال رمز القسيمة إلى بريدك الإلكتروني",
+    "redemptionFailed": "فشل الاستبدال",
+    "tryAgain": "حاول مرة أخرى"
   },
   "settings": {
     "title": "الإعدادات",
@@ -132,6 +168,24 @@
     "success": "نجح",
     "confirm": "تأكيد",
     "back": "رجوع"
+  },
+  "tracking": {
+    "orderId": "رقم الطلب",
+    "orderDate": "تاريخ الطلب",
+    "totalAmount": "المبلغ الإجمالي",
+    "trackingStatus": "حالة التتبع",
+    "orderConfirmed": "تم تأكيد الطلب",
+    "processing": "قيد التجهيز",
+    "outForDelivery": "في الطريق للتوصيل",
+    "delivered": "تم التوصيل",
+    "inProgress": "قيد التنفيذ",
+    "estimatedArrival": "الوقت المقدر للوصول",
+    "deliveryDriver": "مندوب التوصيل",
+    "driver": "السائق",
+    "vehicle": "المركبة",
+    "deliveryAddress": "عنوان التوصيل",
+    "orderItems": "عناصر الطلب",
+    "viewOnMap": "عرض على الخريطة",
+    "contactDriver": "الاتصال بالسائق"
   }
 }
-

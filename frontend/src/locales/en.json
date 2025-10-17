@@ -7,8 +7,7 @@
     "home": "Home",
     "cart": "Cart",
     "rewards": "Rewards",
-    "profile": "Profile",
-    "orders": "Orders"
+    "profile": "Profile"
   },
   "auth": {
     "login": "Login",
@@ -50,14 +49,32 @@
   "cart": {
     "title": "Shopping Cart",
     "empty": "Your cart is empty",
-    "continueShopping": "Continue Shopping",
+    "continueShopping": "Start adding items to your cart",
+    "startShopping": "Start Shopping",
     "subtotal": "Subtotal",
     "discount": "Discount",
+    "vat": "VAT",
+    "deliveryFee": "Delivery Fee",
+    "free": "FREE",
     "total": "Total",
-    "checkout": "Proceed to Checkout",
-    "applyOffer": "Apply Bank Offer",
+    "orderSummary": "Order Summary",
+    "freeDeliveryNote": "Add {{amount}} more for free delivery!",
+    "earnPoints": "Earn Reward Points",
+    "points": "points",
+    "currentBalance": "Current",
+    "proceedToCheckout": "Proceed to Checkout",
+    "applyOffer": "Apply Offers & Discounts",
+    "scheduleDelivery": "Schedule Delivery",
+    "morning": "Morning Delivery",
+    "afternoon": "Afternoon Delivery",
+    "evening": "Evening Delivery",
+    "deliveryAddress": "Delivery Address",
+    "selectAddress": "Select delivery address",
+    "tapToChange": "Tap to change",
+    "youMayLike": "You May Also Like",
     "removeItem": "Remove",
-    "itemsInCart": "items in cart"
+    "itemsInCart": "items in cart",
+    "checkout": "Proceed to Checkout"
   },
   "checkout": {
     "title": "Checkout",
@@ -96,7 +113,26 @@
     "howToEarn": "How to Earn Points",
     "earnDescription": "Earn 1 point for every OMR spent. Redeem points for exclusive discounts and offers!",
     "redeemed": "Redeemed",
-    "redeem": "Redeem"
+    "redeem": "Redeem",
+    "details": "Offer Details",
+    "termsConditions": "Terms & Conditions",
+    "validUntil": "Valid Until",
+    "yourPoints": "Your Points",
+    "eligible": "Eligible",
+    "alreadyRedeemed": "Already Redeemed",
+    "insufficientPoints": "Insufficient Points",
+    "redeemNow": "Redeem Now",
+    "enterPIN": "Enter Your PIN",
+    "pinDescription": "Enter your 4-digit PIN to confirm redemption",
+    "enterCompletePIN": "Please enter complete 4-digit PIN",
+    "incorrectPIN": "Incorrect PIN. Please try again.",
+    "pinHint": "For demo: Use PIN 1234",
+    "verifying": "Verifying...",
+    "confirm": "Confirm",
+    "redemptionSuccess": "Redemption Successful!",
+    "couponSentToEmail": "Your coupon code has been sent to your email",
+    "redemptionFailed": "Redemption Failed",
+    "tryAgain": "Try Again"
   },
   "settings": {
     "title": "Settings",
@@ -132,6 +168,24 @@
     "success": "Success",
     "confirm": "Confirm",
     "back": "Back"
+  },
+  "tracking": {
+    "orderId": "Order ID",
+    "orderDate": "Order Date",
+    "totalAmount": "Total Amount",
+    "trackingStatus": "Tracking Status",
+    "orderConfirmed": "Order Confirmed",
+    "processing": "Processing Order",
+    "outForDelivery": "Out for Delivery",
+    "delivered": "Delivered",
+    "inProgress": "In Progress",
+    "estimatedArrival": "Estimated Arrival",
+    "deliveryDriver": "Delivery Driver",
+    "driver": "Driver",
+    "vehicle": "Vehicle",
+    "deliveryAddress": "Delivery Address",
+    "orderItems": "Order Items",
+    "viewOnMap": "View on Map",
+    "contactDriver": "Contact Driver"
   }
 }
-
