@@ -1,0 +1,137 @@
+{
+  "app": {
+    "name": "سبار عمان",
+    "tagline": "السوبر ماركت المتميز"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "cart": "السلة",
+    "rewards": "المكافآت",
+    "profile": "الملف الشخصي",
+    "orders": "الطلبات"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "welcome": "مرحباً بك في سبار عمان",
+    "loginSubtitle": "سجل الدخول لمواصلة التسوق"
+  },
+  "home": {
+    "search": "البحث عن المنتجات...",
+    "categories": "الفئات",
+    "featuredProducts": "المنتجات المميزة",
+    "offers": "العروض الخاصة",
+    "viewAll": "عرض الكل"
+  },
+  "categories": {
+    "fruits": "الفواكه والخضروات",
+    "dairy": "الألبان والبيض",
+    "beverages": "المشروبات",
+    "snacks": "الوجبات الخفيفة",
+    "bakery": "المخبوزات",
+    "meat": "اللحوم والمأكولات البحرية",
+    "household": "المنزلية",
+    "personal": "العناية الشخصية"
+  },
+  "product": {
+    "addToCart": "أضف إلى السلة",
+    "price": "السعر",
+    "rating": "التقييم",
+    "reviews": "المراجعات",
+    "description": "الوصف",
+    "youMayLike": "قد يعجبك أيضاً",
+    "inStock": "متوفر",
+    "outOfStock": "غير متوفر",
+    "quantity": "الكمية"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة",
+    "continueShopping": "متابعة التسوق",
+    "subtotal": "المجموع الفرعي",
+    "discount": "الخصم",
+    "total": "الإجمالي",
+    "checkout": "إتمام الطلب",
+    "applyOffer": "تطبيق عرض البنك",
+    "removeItem": "إزالة",
+    "itemsInCart": "منتجات في السلة"
+  },
+  "checkout": {
+    "title": "إتمام الطلب",
+    "orderSummary": "ملخص الطلب",
+    "deliveryAddress": "عنوان التوصيل",
+    "selectAddress": "اختر العنوان",
+    "addNewAddress": "إضافة عنوان جديد",
+    "paymentMethod": "طريقة الدفع",
+    "creditCard": "بطاقة ائتمان/خصم",
+    "cashOnDelivery": "الدفع عند الاستلام",
+    "loyaltyPoints": "الدفع بنقاط الولاء",
+    "applyPromo": "تطبيق رمز ترويجي",
+    "placeOrder": "تأكيد الطلب",
+    "orderPlaced": "تم تأكيد الطلب بنجاح!"
+  },
+  "orders": {
+    "title": "طلباتي",
+    "active": "الطلبات النشطة",
+    "past": "الطلبات السابقة",
+    "orderNumber": "رقم الطلب #",
+    "status": "الحالة",
+    "pending": "قيد الانتظار",
+    "shipped": "تم الشحن",
+    "delivered": "تم التوصيل",
+    "cancelled": "ملغى",
+    "trackOrder": "تتبع الطلب",
+    "needHelp": "بحاجة لمساعدة؟",
+    "noOrders": "لا توجد طلبات بعد"
+  },
+  "rewards": {
+    "title": "المكافآت والعروض",
+    "points": "النقاط",
+    "availablePoints": "النقاط المتاحة",
+    "redeemPoints": "استبدال النقاط",
+    "merchantOffers": "عروض الشركاء",
+    "howToEarn": "كيفية كسب النقاط",
+    "earnDescription": "اكسب نقطة واحدة عن كل ريال عماني يتم إنفاقه. استبدل النقاط للحصول على خصومات وعروض حصرية!",
+    "redeemed": "تم الاستبدال",
+    "redeem": "استبدل"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "profile": "ملفي الشخصي",
+    "language": "اللغة",
+    "theme": "المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "myOrders": "طلباتي",
+    "addresses": "العناوين المحفوظة",
+    "paymentMethods": "طرق الدفع",
+    "helpSupport": "المساعدة والدعم",
+    "about": "عن سبار عمان",
+    "terms": "الشروط والأحكام",
+    "privacy": "سياسة الخصوصية"
+  },
+  "offers": {
+    "bankOffer": "عرض البنك",
+    "promoCode": "رمز ترويجي",
+    "discount": "احصل على خصم {{percent}}%",
+    "festivalOffer": "عرض المهرجان الخاص",
+    "weekendDeal": "عرض نهاية الأسبوع"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "apply": "تطبيق",
+    "close": "إغلاق",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "success": "نجح",
+    "confirm": "تأكيد",
+    "back": "رجوع"
+  }
+}
+

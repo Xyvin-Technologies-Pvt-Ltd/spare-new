@@ -1,0 +1,137 @@
+{
+  "app": {
+    "name": "SPAR Oman",
+    "tagline": "Your Premium Supermarket"
+  },
+  "nav": {
+    "home": "Home",
+    "cart": "Cart",
+    "rewards": "Rewards",
+    "profile": "Profile",
+    "orders": "Orders"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "welcome": "Welcome to SPAR Oman",
+    "loginSubtitle": "Login to continue shopping"
+  },
+  "home": {
+    "search": "Search products...",
+    "categories": "Categories",
+    "featuredProducts": "Featured Products",
+    "offers": "Special Offers",
+    "viewAll": "View All"
+  },
+  "categories": {
+    "fruits": "Fruits & Vegetables",
+    "dairy": "Dairy & Eggs",
+    "beverages": "Beverages",
+    "snacks": "Snacks",
+    "bakery": "Bakery",
+    "meat": "Meat & Seafood",
+    "household": "Household",
+    "personal": "Personal Care"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "price": "Price",
+    "rating": "Rating",
+    "reviews": "Reviews",
+    "description": "Description",
+    "youMayLike": "You May Also Like",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "quantity": "Quantity"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "applyOffer": "Apply Bank Offer",
+    "removeItem": "Remove",
+    "itemsInCart": "items in cart"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "orderSummary": "Order Summary",
+    "deliveryAddress": "Delivery Address",
+    "selectAddress": "Select Address",
+    "addNewAddress": "Add New Address",
+    "paymentMethod": "Payment Method",
+    "creditCard": "Credit/Debit Card",
+    "cashOnDelivery": "Cash on Delivery",
+    "loyaltyPoints": "Pay with Loyalty Points",
+    "applyPromo": "Apply Promo Code",
+    "placeOrder": "Place Order",
+    "orderPlaced": "Order Placed Successfully!"
+  },
+  "orders": {
+    "title": "My Orders",
+    "active": "Active Orders",
+    "past": "Past Orders",
+    "orderNumber": "Order #",
+    "status": "Status",
+    "pending": "Pending",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "trackOrder": "Track Order",
+    "needHelp": "Need Help?",
+    "noOrders": "No orders yet"
+  },
+  "rewards": {
+    "title": "Rewards & Offers",
+    "points": "Points",
+    "availablePoints": "Available Points",
+    "redeemPoints": "Redeem Points",
+    "merchantOffers": "Partner Offers",
+    "howToEarn": "How to Earn Points",
+    "earnDescription": "Earn 1 point for every OMR spent. Redeem points for exclusive discounts and offers!",
+    "redeemed": "Redeemed",
+    "redeem": "Redeem"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "My Profile",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "myOrders": "My Orders",
+    "addresses": "Saved Addresses",
+    "paymentMethods": "Payment Methods",
+    "helpSupport": "Help & Support",
+    "about": "About SPAR Oman",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "offers": {
+    "bankOffer": "Bank Offer",
+    "promoCode": "Promo Code",
+    "discount": "Get {{percent}}% off",
+    "festivalOffer": "Festival Special",
+    "weekendDeal": "Weekend Deal"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "close": "Close",
+    "edit": "Edit",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Success",
+    "confirm": "Confirm",
+    "back": "Back"
+  }
+}
+
