@@ -83,13 +83,74 @@ This will open Xcode. From there:
 
 ## Configuration
 
-### Status Bar Configuration
+### App Icon Setup
 
-Create `capacitor.config.json` in the frontend directory:
+The app logo (`src/assets/logo.jpg`) will be used as the app icon. You'll need to generate different sizes for each platform.
+
+#### Using Capacitor Assets (Recommended)
+
+1. Install the Capacitor Assets plugin:
+
+```bash
+npm install @capacitor/assets --save-dev
+```
+
+2. Create an `assets` folder in the frontend directory:
+
+```bash
+mkdir -p assets
+```
+
+3. Copy your logo to the assets folder and rename it to `icon.png` (must be PNG format):
+
+```bash
+# Convert logo.jpg to PNG if needed and copy
+cp src/assets/logo.jpg assets/icon.png
+```
+
+4. Generate all icon sizes automatically:
+
+```bash
+npx capacitor-assets generate
+```
+
+This will create all required icon sizes for iOS and Android.
+
+#### Manual Icon Setup (Alternative)
+
+If you prefer manual setup:
+
+**For Android:**
+
+- Place icons in `android/app/src/main/res/mipmap-*/ic_launcher.png`
+- Required sizes: 48x48, 72x72, 96x96, 144x144, 192x192, 512x512
+
+**For iOS:**
+
+- Open Xcode: `npx cap open ios`
+- Navigate to App → Assets.xcassets → AppIcon
+- Drag and drop icon images for each required size
+
+### App Name & Bundle ID
+
+Update `capacitor.config.json`:
 
 ```json
 {
-  "appId": "com.spar.oman",
+  "appId": "com.sparoman.app",
+  "appName": "SPAR Oman",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
+```
+
+### Status Bar Configuration
+
+Add to `capacitor.config.json`:
+
+```json
+{
+  "appId": "com.sparoman.app",
   "appName": "SPAR Oman",
   "webDir": "dist",
   "bundledWebRuntime": false,

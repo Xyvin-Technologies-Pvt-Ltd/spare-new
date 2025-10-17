@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -19,6 +20,7 @@ import {
 } from "react-icons/fi";
 import { useAuthStore } from "../store/authStore";
 import { useThemeStore } from "../store/themeStore";
+import EditProfileModal from "../components/EditProfileModal";
 
 const Settings = () => {
   const navigate = useNavigate();
@@ -27,6 +29,8 @@ const Settings = () => {
   const logout = useAuthStore((state) => state.logout);
   const theme = useThemeStore((state) => state.theme);
   const toggleTheme = useThemeStore((state) => state.toggleTheme);
+
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
 
   const toggleLanguage = () => {
     const newLang = i18n.language === "en" ? "ar" : "en";
@@ -106,18 +110,31 @@ const Settings = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-br from-primary to-green-600 rounded-3xl p-6 text-white shadow-xl"
+          whileTap={{ scale: 0.98 }}
+          onClick={() => setIsEditModalOpen(true)}
+          className="bg-gradient-to-br from-primary to-green-600 rounded-3xl p-6 text-white shadow-xl cursor-pointer hover:shadow-2xl transition-shadow"
         >
           <div className="flex items-center gap-4">
-            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center">
-              <FiUser className="w-10 h-10 text-primary" />
+            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center overflow-hidden">
+              {user?.photo ? (
+                <img
+                  src={user.photo}
+                  alt={user.name}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <FiUser className="w-10 h-10 text-primary" />
+              )}
             </div>
             <div className="flex-1">
               <h2 className="text-2xl font-bold mb-1">
                 {i18n.language === "ar" ? user?.nameAr : user?.name}
               </h2>
-              <p className="text-white/80">{user?.email}</p>
-              <p className="text-white/80">{user?.phone}</p>
+              <p className="text-white/80 text-sm">{user?.email}</p>
+              <p className="text-white/80 text-sm">{user?.phone}</p>
+            </div>
+            <div className="text-white/60">
+              <FiChevronRight className="w-6 h-6" />
             </div>
           </div>
         </motion.div>
@@ -233,6 +250,12 @@ const Settings = () => {
           SPAR Oman v1.0.0
         </p>
       </div>
+
+      {/* Edit Profile Modal */}
+      <EditProfileModal
+        isOpen={isEditModalOpen}
+        onClose={() => setIsEditModalOpen(false)}
+      />
     </div>
   );
 };

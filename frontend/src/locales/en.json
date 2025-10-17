@@ -25,6 +25,14 @@
     "offers": "Special Offers",
     "viewAll": "View All"
   },
+  "search": {
+    "placeholder": "Search for products...",
+    "results": "Search Results",
+    "noResults": "No products found",
+    "tryDifferent": "Try a different search term",
+    "recent": "Recent Searches",
+    "categories": "Search by Category"
+  },
   "categories": {
     "fruits": "Fruits & Vegetables",
     "dairy": "Dairy & Eggs",
@@ -74,7 +82,57 @@
     "youMayLike": "You May Also Like",
     "removeItem": "Remove",
     "itemsInCart": "items in cart",
-    "checkout": "Proceed to Checkout"
+    "checkout": "Proceed to Checkout",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "selectDate": "Select Delivery Date",
+    "selectTime": "Select Time Slot",
+    "change": "Change",
+    "payment": "Payment",
+    "paymentMethod": "Payment Method",
+    "cashOnDelivery": "Cash on Delivery",
+    "creditCard": "Credit/Debit Card",
+    "placeOrder": "Place Order",
+    "proceedToPayment": "Proceed to Payment",
+    "processing": "Processing..."
+  },
+  "payment": {
+    "title": "Payment",
+    "cardDetails": "Card Details",
+    "cardNumber": "Card Number",
+    "cardHolderName": "Cardholder Name",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "saveCard": "Save card for future purchases",
+    "secureNote": "Your payment information is secure and encrypted",
+    "payNow": "Pay Now",
+    "processing": "Processing Payment...",
+    "invalidCardNumber": "Please enter valid 16-digit card number",
+    "cardNameRequired": "Cardholder name is required",
+    "invalidExpiry": "Please enter valid expiry date (MM/YY)",
+    "invalidMonth": "Month must be between 01 and 12",
+    "invalidCvv": "CVV must be 3 digits",
+    "paymentSuccessful": "Payment Successful!",
+    "orderConfirmed": "Your order has been confirmed",
+    "redirecting": "Redirecting to orders...",
+    "paymentFailed": "Payment Failed",
+    "tryAgain": "Please check your card details and try again",
+    "paymentMethods": "Payment Methods",
+    "addCard": "Add New Card",
+    "cardHolder": "Card Holder",
+    "expires": "Expires",
+    "defaultCard": "Default Card",
+    "setDefault": "Set as Default",
+    "removeCard": "Remove Card",
+    "cannotDeleteDefault": "Cannot delete default card",
+    "securityNote": "All your card information is encrypted and secure",
+    "selectPaymentMethod": "Select Payment Method",
+    "useNewCard": "Use a New Card",
+    "paymentCard": "Payment Card",
+    "enterCvv": "Enter CVV to Confirm",
+    "cvvRequired": "CVV is required",
+    "cvvHelp": "3-digit code on back of card",
+    "newCardDetails": "New Card Details"
   },
   "checkout": {
     "title": "Checkout",
@@ -95,6 +153,7 @@
     "active": "Active Orders",
     "past": "Past Orders",
     "orderNumber": "Order #",
+    "items": "Items",
     "status": "Status",
     "pending": "Pending",
     "shipped": "Shipped",
@@ -158,6 +217,7 @@
   },
   "common": {
     "save": "Save",
+    "saving": "Saving...",
     "cancel": "Cancel",
     "apply": "Apply",
     "close": "Close",
@@ -168,6 +228,19 @@
     "success": "Success",
     "confirm": "Confirm",
     "back": "Back"
+  },
+  "profile": {
+    "editProfile": "Edit Profile",
+    "updateInfo": "Update your profile information",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "tapToChange": "Tap to change photo",
+    "nameRequired": "Name is required",
+    "phoneRequired": "Phone number is required",
+    "invalidPhone": "Please enter a valid phone number",
+    "emailRequired": "Email is required",
+    "invalidEmail": "Please enter a valid email address"
   },
   "tracking": {
     "orderId": "Order ID",
@@ -187,5 +260,52 @@
     "orderItems": "Order Items",
     "viewOnMap": "View on Map",
     "contactDriver": "Contact Driver"
+  },
+  "address": {
+    "title": "Saved Addresses",
+    "addNew": "Add New Address",
+    "default": "Default",
+    "setDefault": "Set as Default",
+    "edit": "Edit",
+    "cannotDeleteDefault": "Cannot delete default address"
+  },
+  "support": {
+    "title": "Help & Support",
+    "contactUs": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "chat": "Live Chat",
+    "newTicket": "Create New Ticket",
+    "yourTickets": "Your Support Tickets",
+    "noTickets": "No support tickets",
+    "order": "Order",
+    "open": "Open",
+    "resolved": "Resolved",
+    "response": "Response",
+    "viewDetails": "View Details",
+    "faq": "Frequently Asked Questions"
+  },
+  "about": {
+    "title": "About SPAR Oman",
+    "aboutUs": "About Us",
+    "mission": "Our Mission",
+    "values": "Our Values",
+    "contactInfo": "Contact Information",
+    "headquarters": "Headquarters",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website",
+    "followUs": "Follow Us"
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last Updated",
+    "questions": "Questions about these terms?"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "commitment": "Your Privacy Matters",
+    "lastUpdated": "Last Updated",
+    "questions": "Questions about privacy?"
   }
 }

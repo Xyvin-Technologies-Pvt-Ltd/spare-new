@@ -54,6 +54,37 @@ export const useRewardsStore = create(
                 return { success: true, message: 'Offer redeemed successfully!' };
             },
 
+            // Redeem reward (for modal)
+            redeemReward: (reward) => {
+                const currentPoints = get().points;
+                const requiredPoints = reward.pointsRequired || reward.points || 0;
+
+                if (currentPoints < requiredPoints) {
+                    return { success: false };
+                }
+
+                set((state) => ({
+                    points: state.points - requiredPoints,
+                    redeemedOffers: [...state.redeemedOffers, {
+                        id: reward.id,
+                        redeemedAt: new Date().toISOString()
+                    }],
+                    history: [
+                        {
+                            id: Date.now(),
+                            type: 'redeemed',
+                            points: -requiredPoints,
+                            description: `Redeemed: ${reward.offer || reward.title}`,
+                            descriptionAr: `تم الاستبدال: ${reward.offerAr || reward.titleAr}`,
+                            date: new Date().toISOString()
+                        },
+                        ...state.history
+                    ]
+                }));
+
+                return { success: true };
+            },
+
             // Get current tier
             getCurrentTier: () => {
                 const points = get().points;

@@ -25,6 +25,14 @@
     "offers": "العروض الخاصة",
     "viewAll": "عرض الكل"
   },
+  "search": {
+    "placeholder": "ابحث عن المنتجات...",
+    "results": "نتائج البحث",
+    "noResults": "لم يتم العثور على منتجات",
+    "tryDifferent": "جرب مصطلح بحث مختلف",
+    "recent": "عمليات البحث الأخيرة",
+    "categories": "البحث حسب الفئة"
+  },
   "categories": {
     "fruits": "الفواكه والخضروات",
     "dairy": "الألبان والبيض",
@@ -74,7 +82,57 @@
     "youMayLike": "قد يعجبك أيضاً",
     "removeItem": "إزالة",
     "itemsInCart": "منتجات في السلة",
-    "checkout": "إتمام الطلب"
+    "checkout": "إتمام الطلب",
+    "today": "اليوم",
+    "tomorrow": "غداً",
+    "selectDate": "اختر تاريخ التوصيل",
+    "selectTime": "اختر وقت التوصيل",
+    "change": "تغيير",
+    "payment": "الدفع",
+    "paymentMethod": "طريقة الدفع",
+    "cashOnDelivery": "الدفع عند الاستلام",
+    "creditCard": "بطاقة ائتمان/خصم",
+    "placeOrder": "تأكيد الطلب",
+    "proceedToPayment": "المتابعة للدفع",
+    "processing": "جارٍ المعالجة..."
+  },
+  "payment": {
+    "title": "الدفع",
+    "cardDetails": "تفاصيل البطاقة",
+    "cardNumber": "رقم البطاقة",
+    "cardHolderName": "اسم حامل البطاقة",
+    "expiryDate": "تاريخ الانتهاء",
+    "cvv": "رمز التحقق",
+    "saveCard": "حفظ البطاقة للمشتريات المستقبلية",
+    "secureNote": "معلومات الدفع الخاصة بك آمنة ومشفرة",
+    "payNow": "ادفع الآن",
+    "processing": "جارٍ معالجة الدفع...",
+    "invalidCardNumber": "الرجاء إدخال رقم بطاقة صالح مكون من 16 رقمًا",
+    "cardNameRequired": "اسم حامل البطاقة مطلوب",
+    "invalidExpiry": "الرجاء إدخال تاريخ انتهاء صالح (شهر/سنة)",
+    "invalidMonth": "يجب أن يكون الشهر بين 01 و 12",
+    "invalidCvv": "رمز التحقق يجب أن يكون 3 أرقام",
+    "paymentSuccessful": "تم الدفع بنجاح!",
+    "orderConfirmed": "تم تأكيد طلبك",
+    "redirecting": "جارٍ التحويل إلى الطلبات...",
+    "paymentFailed": "فشل الدفع",
+    "tryAgain": "يرجى التحقق من تفاصيل البطاقة والمحاولة مرة أخرى",
+    "paymentMethods": "طرق الدفع",
+    "addCard": "إضافة بطاقة جديدة",
+    "cardHolder": "حامل البطاقة",
+    "expires": "تنتهي",
+    "defaultCard": "البطاقة الافتراضية",
+    "setDefault": "تعيين كافتراضي",
+    "removeCard": "إزالة البطاقة",
+    "cannotDeleteDefault": "لا يمكن حذف البطاقة الافتراضية",
+    "securityNote": "جميع معلومات بطاقتك مشفرة وآمنة",
+    "selectPaymentMethod": "اختر طريقة الدفع",
+    "useNewCard": "استخدام بطاقة جديدة",
+    "paymentCard": "بطاقة الدفع",
+    "enterCvv": "أدخل رمز CVV للتأكيد",
+    "cvvRequired": "رمز CVV مطلوب",
+    "cvvHelp": "رمز مكون من 3 أرقام على ظهر البطاقة",
+    "newCardDetails": "تفاصيل البطاقة الجديدة"
   },
   "checkout": {
     "title": "إتمام الطلب",
@@ -95,6 +153,7 @@
     "active": "الطلبات النشطة",
     "past": "الطلبات السابقة",
     "orderNumber": "رقم الطلب #",
+    "items": "المنتجات",
     "status": "الحالة",
     "pending": "قيد الانتظار",
     "shipped": "تم الشحن",
@@ -158,6 +217,7 @@
   },
   "common": {
     "save": "حفظ",
+    "saving": "جارٍ الحفظ...",
     "cancel": "إلغاء",
     "apply": "تطبيق",
     "close": "إغلاق",
@@ -168,6 +228,19 @@
     "success": "نجح",
     "confirm": "تأكيد",
     "back": "رجوع"
+  },
+  "profile": {
+    "editProfile": "تعديل الملف الشخصي",
+    "updateInfo": "تحديث معلومات ملفك الشخصي",
+    "name": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "email": "عنوان البريد الإلكتروني",
+    "tapToChange": "اضغط لتغيير الصورة",
+    "nameRequired": "الاسم مطلوب",
+    "phoneRequired": "رقم الهاتف مطلوب",
+    "invalidPhone": "الرجاء إدخال رقم هاتف صالح",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "invalidEmail": "الرجاء إدخال بريد إلكتروني صالح"
   },
   "tracking": {
     "orderId": "رقم الطلب",
@@ -187,5 +260,52 @@
     "orderItems": "عناصر الطلب",
     "viewOnMap": "عرض على الخريطة",
     "contactDriver": "الاتصال بالسائق"
+  },
+  "address": {
+    "title": "العناوين المحفوظة",
+    "addNew": "إضافة عنوان جديد",
+    "default": "افتراضي",
+    "setDefault": "تعيين كافتراضي",
+    "edit": "تعديل",
+    "cannotDeleteDefault": "لا يمكن حذف العنوان الافتراضي"
+  },
+  "support": {
+    "title": "المساعدة والدعم",
+    "contactUs": "اتصل بنا",
+    "phone": "هاتف",
+    "email": "بريد إلكتروني",
+    "chat": "دردشة مباشرة",
+    "newTicket": "إنشاء تذكرة جديدة",
+    "yourTickets": "تذاكر الدعم الخاصة بك",
+    "noTickets": "لا توجد تذاكر دعم",
+    "order": "الطلب",
+    "open": "مفتوح",
+    "resolved": "تم الحل",
+    "response": "الرد",
+    "viewDetails": "عرض التفاصيل",
+    "faq": "الأسئلة الشائعة"
+  },
+  "about": {
+    "title": "حول سبار عمان",
+    "aboutUs": "معلومات عنا",
+    "mission": "مهمتنا",
+    "values": "قيمنا",
+    "contactInfo": "معلومات الاتصال",
+    "headquarters": "المقر الرئيسي",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "website": "الموقع الإلكتروني",
+    "followUs": "تابعنا"
+  },
+  "terms": {
+    "title": "الشروط والأحكام",
+    "lastUpdated": "آخر تحديث",
+    "questions": "أسئلة حول هذه الشروط؟"
+  },
+  "privacy": {
+    "title": "سياسة الخصوصية",
+    "commitment": "خصوصيتك مهمة",
+    "lastUpdated": "آخر تحديث",
+    "questions": "أسئلة حول الخصوصية؟"
   }
 }

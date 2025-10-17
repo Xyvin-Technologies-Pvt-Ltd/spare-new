@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FiHome, FiGift, FiUser } from "react-icons/fi";
-import { motion } from "framer-motion";
 
 const BottomNav = () => {
   const { t } = useTranslation();
@@ -20,7 +19,7 @@ const BottomNav = () => {
             key={item.path}
             to={item.path}
             className={({ isActive }) =>
-              `tap-target flex-1 flex flex-col items-center justify-center gap-1 py-2 relative ${
+              `tap-target flex-1 flex flex-col items-center justify-center gap-1 py-2 ${
                 isActive ? "text-primary" : "text-gray-500 dark:text-gray-400"
               }`
             }
@@ -29,13 +28,6 @@ const BottomNav = () => {
               <>
                 <item.icon className="w-6 h-6" />
                 <span className="text-xs font-medium">{item.label}</span>
-                {isActive && (
-                  <motion.div
-                    layoutId="bottomNav"
-                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-1 bg-primary rounded-t-full"
-                    transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                  />
-                )}
               </>
             )}
           </NavLink>
